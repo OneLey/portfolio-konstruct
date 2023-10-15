@@ -1,0 +1,506 @@
+
+/* Настройка */
+
+@import url(./reset.css);
+@font-face {
+	font-family: "BebasNeueBold";
+	src: url(../fonts/Bebas\ Neue.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+/* Первая страница */
+
+.konst-logo {
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: 41px auto 317px auto;
+}
+.header-text {
+	font-family: BebasNeueBold, sans-serif;
+	font-size: 60px;
+	letter-spacing: 5.709px;
+}
+.header-subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 221px;
+}
+.header-scroll {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 3.7px;
+	margin-bottom: 71px;
+}
+.konst-logo {
+	width: 101.618px;
+	height: 23px;
+	flex-shrink: 0;
+}
+
+/* Навигация */
+
+nav {
+	border: 1px solid #E6E6E6;
+}
+.nav-items {
+	padding: 0;
+}
+.nav-item {
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 1.091px;
+}
+.nav-link {
+	margin-right: 48px;
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	letter-spacing: 1.091px;
+}
+.nav-link:hover {
+	color: #00A4E5;
+	font-weight: 700;
+}
+.nav-logo {
+	margin-right: 550px;
+	width: 79.527px;
+	height: 18px;
+	flex-shrink: 0;
+}
+
+/* История */
+
+.story-title {
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2.306px;
+}
+.line::before {
+	content: '';
+	width: 50px;
+	height: 2px;
+	background-color: #00A4E5;
+	display: block;
+}
+.line-story::before {
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+.story-text span {
+	color: #16ACE8;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.17px;
+}
+.story-text {
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.188px;
+	max-width: 405px;
+	margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+.story-desc {
+	max-width: 405px;
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px; /* 176.923% */
+	letter-spacing: 0.188px;
+	/*max-width: 405px;*/
+}
+
+/*header {
+	background-image: url(../img/header-bg.png);
+	background-size: cover;
+	background-position: center center;
+}*/
+.story-card-text {
+	margin-right: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 29px; /* 120.833% */
+	letter-spacing: 0.188px;
+}
+.story-card-text:nth-child(1) {
+	margin-left: 77px;
+	background-image: url(../img/plan.png);
+	background-repeat: no-repeat;
+}
+.story-card-text:nth-child(2) {
+	background-image: url(../img/manage.png);
+	background-repeat: no-repeat;
+}
+.story-card-text:nth-child(3) {
+	background-image: url(../img/build.png);
+	background-repeat: no-repeat;
+}
+.story-inner {
+	display: flex;
+}
+.story-cards {
+	margin-left: 265px;
+	display: flex;
+	margin-top: 25px;
+}
+.story-card-text {
+	padding-left: 14px;
+	padding-top: 15px;
+	width: 140px;
+	height: 224px;
+}
+.story-desc {
+	margin-bottom: 119px;
+}
+
+/* Возможности */
+
+.line-capa {
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+.capa-title {
+	margin-right: 255px;
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 2.306px;
+}
+.capa-inner {
+	display: flex;
+}
+.capa-desc {
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px; /* 172.727% */
+	letter-spacing: 0.2px;
+	margin-right: 266px;
+}
+.capa-button {
+	flex-wrap: nowrap;
+	padding: 11px 29px;
+	background-color: #00A4E5;
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+.capa-btn {
+	flex-wrap: nowrap;
+	margin-top: 7px;
+}
+
+/* Карточки */
+
+.cards {
+	margin-bottom: 115px;
+}
+.cards-inner {
+	display: flex;
+}
+.card {
+	border: 1px solid #E6E6E6;
+	background: #FFF;
+	border-radius: 0%;
+	margin-right: 28px;
+	width: 295px;
+	height: 330px;
+	flex-shrink: 0;
+}
+.project-card {
+	margin-left: 10%;
+}
+.card-img, .card-title, .card-desc {
+	padding-left: 23px;
+}
+.card-img {
+	padding-top: 38px;
+}
+.card-title {
+	/*max-width: 250px;*/
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px; /* 150% */
+	letter-spacing: 0.427px;
+	margin-top: 25px;
+}
+.card-desc {
+	padding-top: 13px;
+	color: #48555B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 23px; /* 176.923% */
+	letter-spacing: 0.188px;
+}
+
+/* Get in touch */
+
+.get-text {
+	color: #48555B;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 36px; /* 120% */
+	letter-spacing: 0.15px;
+}
+.get-button-text {
+	margin-top: 35px;
+	padding: 11px 26px;
+	background-color: #00A4E5;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.5px;
+}
+.get-button {
+	width: 150px;
+	height: 40px;
+	margin-top: 35px;
+	padding:11px 26px;
+	background-color: #00A4E5;
+	border: none;
+	text-transform: uppercase;
+	color: #FFF;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.5px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	margin-bottom: 231px;
+}
+.get-in-touch {
+	background: url(../img/get-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	min-height: 499px;
+}
+
+/* Регистрация */
+
+.signup {
+	background: #171819;
+}
+.signup-inner {
+	display: flex;
+	padding-right: 308px;
+	padding-left: 377px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+.signup-text {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.846px;
+	margin-right: 70px;
+}
+.signup-mail {
+	max-width: 250px;
+	height: 41px;
+	padding-left: 10px;
+	background-color: #fff;
+}
+.signup-btn {
+	width: 150px;
+	height: 41px;
+	background-color: #00A4E5;
+	border: none;
+	text-transform: uppercase;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.5px;
+}
+
+/* Футер */
+
+.footer {
+	min-height: 240px;
+	background-color: #141A20;
+}
+.footer-inner {
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	padding-top: 42px;
+	padding-bottom:50px;
+}
+.footer-logo {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	max-width: 250px;
+}
+.footer-logo-company {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.846px;
+	text-transform: uppercase;
+	margin-bottom: 19px;
+}
+.footer-logo-ico {
+	width: 102px;
+	height: 23px;
+	margin-bottom: 15px;
+}
+.footer-logo-text {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 19px; /* 172.727% */
+	letter-spacing: 0.85px;
+}
+.footer-menu {
+	margin-left: 71px;
+	
+}
+.footer-menu-links {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.846px;
+	text-transform: uppercase;
+}
+.footer-items {
+	padding: 0;
+	margin: 0;
+	margin-top: 10px;
+}
+.footer-menu-link {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 25px; /* 227.273% */
+	letter-spacing: 0.846px;
+	text-transform: uppercase;
+}
+.footer-menu-link:hover,.footer-link-item:hover {
+	color:#00A4E5
+}
+.footer-link {
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
+}
+.footer-link-item {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 25px; /* 227.273% */
+	letter-spacing: 0.846px;
+}
+.footer-contact-us {
+	color: #FFF;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.846px;
+}
+.footer-contact-addres {
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 16px; /* 145.455% */
+	letter-spacing: 0.846px;
+	margin-top: 15px;
+}
+.footer-social {
+	display: flex;
+	fill: white;
+	gap: 25px;
+	padding-bottom: 75px;
+}
+.footer-social-ico {
+	width: 12px;
+	height: 12px;
+}
+.copyrigth {
+	min-height: 60px;
+	background-color: #171819;
+}
+.copyrigth-text {
+	text-align: center;
+	color: #FFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.846px;
+	padding-top: 22px;
+}
