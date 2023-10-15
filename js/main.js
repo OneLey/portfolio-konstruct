@@ -1,1 +1,1 @@
-//$('header').parallax({imageSrc: '../img/header-bg.png'});
+$('header').parallax({imageSrc: '../img/header-bg.png'});
